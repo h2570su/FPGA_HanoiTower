@@ -1,0 +1,10 @@
+module mainLogic(ENABLE, DATA_REQ, DATA, DATA_RDY, DATA, DATA_ADDR, value);
+input ENABLE;
+output reg DATA_REQ;
+output reg [15:0] DATA;
+output reg [22:0] DATA_ADDR;
+input DATA_RDY;
+input [31:0] value;
+
+
+endmodule

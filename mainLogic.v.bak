@@ -1,0 +1,84 @@
+module mainLogic(tick, PB1, PB2, PB3, RESET, SELECT,
+					  MOVES_COUNT,
+					  DISKa_0, DISKa_1, DISKa_2, DISKa_3, DISKa_4, DISKa_5, DISKa_6, DISKa_7, DISKa_8, DISKa_9,
+					  DISKb_0, DISKb_1, DISKb_2, DISKb_3, DISKb_4, DISKb_5, DISKb_6, DISKb_7, DISKb_8, DISKb_9,
+					  DISKc_0, DISKc_1, DISKc_2, DISKc_3, DISKc_4, DISKc_5, DISKc_6, DISKc_7, DISKc_8, DISKc_9,
+					  MOVES_NUM0, MOVES_NUM1, MOVES_NUM2, MOVES_NUM3,
+					  TIME_NUM0, TIME_NUM1, TIME_NUM2, TIME_NUM3
+					  );
+input tick, PB1, PB2, PB3, RESET;					  
+input [2:0] SELECT;
+
+output reg MOVES_COUNT;
+					  
+output [3:0] DISKa_0, DISKa_1, DISKa_2, DISKa_3, DISKa_4, DISKa_5, DISKa_6, DISKa_7, DISKa_8, DISKa_9;
+output [3:0] DISKb_0, DISKb_1, DISKb_2, DISKb_3, DISKb_4, DISKb_5, DISKb_6, DISKb_7, DISKb_8, DISKb_9;
+output [3:0] DISKc_0, DISKc_1, DISKc_2, DISKc_3, DISKc_4, DISKc_5, DISKc_6, DISKc_7, DISKc_8, DISKc_9;	
+
+reg [3:0][3:0] DISKa;
+reg [3:0][3:0] DISKb;
+reg [3:0][3:0] DISKc;
+
+output [7:0] MOVES_NUM0, MOVES_NUM1, MOVES_NUM2, MOVES_NUM3;
+output [7:0] TIME_NUM0, TIME_NUM1, TIME_NUM2, TIME_NUM3;
+
+reg [15:0] el_time;
+
+initial 
+begin
+	el_time<=0;
+end
+
+always
+begin
+	TIME_NUM0=el_time/1000;
+	TIME_NUM1=el_time%1000/100;
+	TIME_NUM2=el_time%100/10;
+	TIME_NUM3=el_time%10;
+	
+	MOVES_NUM0=MOVES_COUNT/1000;
+	MOVES_NUM1=MOVES_COUNT%1000/100;
+	MOVES_NUM2=MOVES_COUNT%100/10;
+	MOVES_NUM3=MOVES_COUNT%10;
+	
+	DISKa_0=DISKa[0];
+	DISKa_1=DISKa[1];
+	DISKa_2=DISKa[2];
+	DISKa_3=DISKa[3];
+	DISKa_4=DISKa[4];
+	DISKa_5=DISKa[5];
+	DISKa_6=DISKa[6];
+	DISKa_7=DISKa[7];
+	DISKa_8=DISKa[8];
+	DISKa_9=DISKa[9];
+	
+	DISKb_0=DISKb[0];
+	DISKb_1=DISKb[1];
+	DISKb_2=DISKb[2];
+	DISKb_3=DISKb[3];
+	DISKb_4=DISKb[4];
+	DISKb_5=DISKb[5];
+	DISKb_6=DISKb[6];
+	DISKb_7=DISKb[7];
+	DISKb_8=DISKb[8];
+	DISKb_9=DISKb[9];
+	
+	DISKc_0=DISKc[0];
+	DISKc_1=DISKc[1];
+	DISKc_2=DISKc[2];
+	DISKc_3=DISKc[3];
+	DISKc_4=DISKc[4];
+	DISKc_5=DISKc[5];
+	DISKc_6=DISKc[6];
+	DISKc_7=DISKc[7];
+	DISKc_8=DISKc[8];
+	DISKc_9=DISKc[9];
+	
+	
+end				  
+
+always @(posedge tick)
+begin
+	el_time<=el_time+1;
+end
+endmodule

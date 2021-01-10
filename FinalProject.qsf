@@ -1,0 +1,175 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 19:29:45  January 06, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FinalProject_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:29:45  JANUARY 06, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 6
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G21 -to CLK_50MHz
+set_location_assignment PIN_L22 -to VGA_VS
+set_location_assignment PIN_K18 -to VGA_B[3]
+set_location_assignment PIN_J22 -to VGA_B[2]
+set_location_assignment PIN_K21 -to VGA_B[1]
+set_location_assignment PIN_K22 -to VGA_B[0]
+set_location_assignment PIN_J21 -to VGA_G[3]
+set_location_assignment PIN_K17 -to VGA_G[2]
+set_location_assignment PIN_J17 -to VGA_G[1]
+set_location_assignment PIN_H22 -to VGA_G[0]
+set_location_assignment PIN_L21 -to VGA_HS
+set_location_assignment PIN_H21 -to VGA_R[3]
+set_location_assignment PIN_H20 -to VGA_R[2]
+set_location_assignment PIN_H17 -to VGA_R[1]
+set_location_assignment PIN_H19 -to VGA_R[0]
+set_location_assignment PIN_A7 -to RAM_ADDR[11]
+set_location_assignment PIN_B4 -to RAM_ADDR[10]
+set_location_assignment PIN_B7 -to RAM_ADDR[9]
+set_location_assignment PIN_C7 -to RAM_ADDR[8]
+set_location_assignment PIN_A6 -to RAM_ADDR[7]
+set_location_assignment PIN_B6 -to RAM_ADDR[6]
+set_location_assignment PIN_C6 -to RAM_ADDR[5]
+set_location_assignment PIN_A5 -to RAM_ADDR[4]
+set_location_assignment PIN_C3 -to RAM_ADDR[3]
+set_location_assignment PIN_B3 -to RAM_ADDR[2]
+set_location_assignment PIN_A3 -to RAM_ADDR[1]
+set_location_assignment PIN_C4 -to RAM_ADDR[0]
+set_location_assignment PIN_A4 -to RAM_BA[1]
+set_location_assignment PIN_B5 -to RAM_BA[0]
+set_location_assignment PIN_G8 -to RAM_CAS
+set_location_assignment PIN_E6 -to RAM_CKE
+set_location_assignment PIN_E5 -to RAM_CLK
+set_location_assignment PIN_G7 -to RAM_CS
+set_location_assignment PIN_F10 -to RAM_DQ[15]
+set_location_assignment PIN_E10 -to RAM_DQ[14]
+set_location_assignment PIN_A10 -to RAM_DQ[13]
+set_location_assignment PIN_B10 -to RAM_DQ[12]
+set_location_assignment PIN_C10 -to RAM_DQ[11]
+set_location_assignment PIN_A9 -to RAM_DQ[10]
+set_location_assignment PIN_B9 -to RAM_DQ[9]
+set_location_assignment PIN_A8 -to RAM_DQ[8]
+set_location_assignment PIN_F8 -to RAM_DQ[7]
+set_location_assignment PIN_H9 -to RAM_DQ[6]
+set_location_assignment PIN_G9 -to RAM_DQ[5]
+set_location_assignment PIN_F9 -to RAM_DQ[4]
+set_location_assignment PIN_E9 -to RAM_DQ[3]
+set_location_assignment PIN_H10 -to RAM_DQ[2]
+set_location_assignment PIN_G10 -to RAM_DQ[1]
+set_location_assignment PIN_D10 -to RAM_DQ[0]
+set_location_assignment PIN_F7 -to RAM_RAS
+set_location_assignment PIN_B8 -to RAM_UDQM
+set_location_assignment PIN_D6 -to RAM_WE
+set_location_assignment PIN_E3 -to RAM_LDQM
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_NCE_PIN OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_G16 -to SEG7[31]
+set_location_assignment PIN_G15 -to SEG7[30]
+set_location_assignment PIN_D19 -to SEG7[29]
+set_location_assignment PIN_C19 -to SEG7[28]
+set_location_assignment PIN_B19 -to SEG7[27]
+set_location_assignment PIN_A19 -to SEG7[26]
+set_location_assignment PIN_F15 -to SEG7[25]
+set_location_assignment PIN_B18 -to SEG7[24]
+set_location_assignment PIN_A18 -to SEG7[23]
+set_location_assignment PIN_F14 -to SEG7[22]
+set_location_assignment PIN_B17 -to SEG7[21]
+set_location_assignment PIN_A17 -to SEG7[20]
+set_location_assignment PIN_E15 -to SEG7[19]
+set_location_assignment PIN_B16 -to SEG7[18]
+set_location_assignment PIN_A16 -to SEG7[17]
+set_location_assignment PIN_D15 -to SEG7[16]
+set_location_assignment PIN_B15 -to SEG7[15]
+set_location_assignment PIN_A15 -to SEG7[14]
+set_location_assignment PIN_E14 -to SEG7[13]
+set_location_assignment PIN_B14 -to SEG7[12]
+set_location_assignment PIN_A14 -to SEG7[11]
+set_location_assignment PIN_C13 -to SEG7[10]
+set_location_assignment PIN_B13 -to SEG7[9]
+set_location_assignment PIN_A13 -to SEG7[8]
+set_location_assignment PIN_D13 -to SEG7[7]
+set_location_assignment PIN_F13 -to SEG7[6]
+set_location_assignment PIN_F12 -to SEG7[5]
+set_location_assignment PIN_G12 -to SEG7[4]
+set_location_assignment PIN_H13 -to SEG7[3]
+set_location_assignment PIN_H12 -to SEG7[2]
+set_location_assignment PIN_F11 -to SEG7[1]
+set_location_assignment PIN_E11 -to SEG7[0]
+set_location_assignment PIN_H2 -to BTN1
+set_location_assignment PIN_G3 -to BTN2
+set_location_assignment PIN_F1 -to BTN3
+set_location_assignment PIN_B1 -to LED9
+set_location_assignment PIN_B2 -to LED8
+set_location_assignment PIN_C2 -to LED7
+set_location_assignment PIN_J6 -to SW[0]
+set_location_assignment PIN_D2 -to SW_SEL[9]
+set_location_assignment PIN_E4 -to SW_SEL[8]
+set_location_assignment PIN_E3 -to SW_SEL[7]
+set_global_assignment -name VERILOG_FILE LAI246_290.v
+set_global_assignment -name VERILOG_FILE button_deboncer.v
+set_global_assignment -name VERILOG_FILE render.v
+set_global_assignment -name BDF_FILE main.bdf
+set_global_assignment -name QIP_FILE pixelClkPLL.qip
+set_global_assignment -name VERILOG_FILE VGAHandler.v
+set_global_assignment -name VERILOG_FILE SEG7Decode.v
+set_global_assignment -name VERILOG_FILE text12_24.v
+set_global_assignment -name VERILOG_FILE disk200_20.v
+set_global_assignment -name QIP_FILE timePLL.qip
+set_global_assignment -name QIP_FILE lpm_counter1.qip
+set_global_assignment -name VERILOG_FILE mainLogic.v
+set_global_assignment -name VERILOG_FILE break_record_move264_24.v
+set_global_assignment -name VERILOG_FILE break_record_time264_24.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

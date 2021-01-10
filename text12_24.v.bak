@@ -1,0 +1,42 @@
+module text12_24(val, pixels)
+	input [7:0] val;
+	output reg [12*24] pixels;
+	
+	always
+	begin
+		case(val)
+		0:begin
+			
+		end
+		1:begin
+		
+		end
+		2:begin
+		
+		end
+		3:begin
+		
+		end
+		4:begin
+		
+		end
+		5:begin
+		
+		end
+		6:begin
+		
+		end
+		7:begin
+		
+		end
+		8:begin
+		
+		end
+		9:begin
+		
+		end
+		default:begin
+		
+		end
+	end
+endmodule

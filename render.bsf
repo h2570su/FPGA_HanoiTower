@@ -1,0 +1,1105 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 288 928)
+	(text "render" (rect 5 0 30 12)(font "Arial" ))
+	(text "inst" (rect 8 896 20 908)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "LINE_SEQ[15..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "LINE_SEQ[15..0]" (rect 21 27 92 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "DISKa_0[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_0[3..0]" (rect 21 43 78 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "DISKa_1[3..0]" (rect 0 0 56 12)(font "Arial" ))
+		(text "DISKa_1[3..0]" (rect 21 59 77 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "DISKa_2[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_2[3..0]" (rect 21 75 78 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "DISKa_3[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_3[3..0]" (rect 21 91 78 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "DISKa_4[3..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "DISKa_4[3..0]" (rect 21 107 80 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "DISKa_5[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_5[3..0]" (rect 21 123 78 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "DISKa_6[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_6[3..0]" (rect 21 139 78 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "DISKa_7[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_7[3..0]" (rect 21 155 78 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "DISKa_8[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_8[3..0]" (rect 21 171 78 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "DISKa_9[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKa_9[3..0]" (rect 21 187 78 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "DISKb_0[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_0[3..0]" (rect 21 203 78 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "DISKb_1[3..0]" (rect 0 0 56 12)(font "Arial" ))
+		(text "DISKb_1[3..0]" (rect 21 219 77 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "DISKb_2[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_2[3..0]" (rect 21 235 78 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "DISKb_3[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_3[3..0]" (rect 21 251 78 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "DISKb_4[3..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "DISKb_4[3..0]" (rect 21 267 80 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "DISKb_5[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_5[3..0]" (rect 21 283 78 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "DISKb_6[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_6[3..0]" (rect 21 299 78 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "DISKb_7[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_7[3..0]" (rect 21 315 78 327)(font "Arial" ))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "DISKb_8[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_8[3..0]" (rect 21 331 78 343)(font "Arial" ))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "DISKb_9[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKb_9[3..0]" (rect 21 347 78 359)(font "Arial" ))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "DISKc_0[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_0[3..0]" (rect 21 363 78 375)(font "Arial" ))
+		(line (pt 0 368)(pt 16 368)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "DISKc_1[3..0]" (rect 0 0 56 12)(font "Arial" ))
+		(text "DISKc_1[3..0]" (rect 21 379 77 391)(font "Arial" ))
+		(line (pt 0 384)(pt 16 384)(line_width 3))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "DISKc_2[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_2[3..0]" (rect 21 395 78 407)(font "Arial" ))
+		(line (pt 0 400)(pt 16 400)(line_width 3))
+	)
+	(port
+		(pt 0 416)
+		(input)
+		(text "DISKc_3[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_3[3..0]" (rect 21 411 78 423)(font "Arial" ))
+		(line (pt 0 416)(pt 16 416)(line_width 3))
+	)
+	(port
+		(pt 0 432)
+		(input)
+		(text "DISKc_4[3..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "DISKc_4[3..0]" (rect 21 427 80 439)(font "Arial" ))
+		(line (pt 0 432)(pt 16 432)(line_width 3))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "DISKc_5[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_5[3..0]" (rect 21 443 78 455)(font "Arial" ))
+		(line (pt 0 448)(pt 16 448)(line_width 3))
+	)
+	(port
+		(pt 0 464)
+		(input)
+		(text "DISKc_6[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_6[3..0]" (rect 21 459 78 471)(font "Arial" ))
+		(line (pt 0 464)(pt 16 464)(line_width 3))
+	)
+	(port
+		(pt 0 480)
+		(input)
+		(text "DISKc_7[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_7[3..0]" (rect 21 475 78 487)(font "Arial" ))
+		(line (pt 0 480)(pt 16 480)(line_width 3))
+	)
+	(port
+		(pt 0 496)
+		(input)
+		(text "DISKc_8[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_8[3..0]" (rect 21 491 78 503)(font "Arial" ))
+		(line (pt 0 496)(pt 16 496)(line_width 3))
+	)
+	(port
+		(pt 0 512)
+		(input)
+		(text "DISKc_9[3..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "DISKc_9[3..0]" (rect 21 507 78 519)(font "Arial" ))
+		(line (pt 0 512)(pt 16 512)(line_width 3))
+	)
+	(port
+		(pt 0 528)
+		(input)
+		(text "TIME_NUM_0[7..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "TIME_NUM_0[7..0]" (rect 21 523 103 535)(font "Arial" ))
+		(line (pt 0 528)(pt 16 528)(line_width 3))
+	)
+	(port
+		(pt 0 544)
+		(input)
+		(text "TIME_NUM_1[7..0]" (rect 0 0 81 12)(font "Arial" ))
+		(text "TIME_NUM_1[7..0]" (rect 21 539 102 551)(font "Arial" ))
+		(line (pt 0 544)(pt 16 544)(line_width 3))
+	)
+	(port
+		(pt 0 560)
+		(input)
+		(text "TIME_NUM_2[7..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "TIME_NUM_2[7..0]" (rect 21 555 103 567)(font "Arial" ))
+		(line (pt 0 560)(pt 16 560)(line_width 3))
+	)
+	(port
+		(pt 0 576)
+		(input)
+		(text "TIME_NUM_3[7..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "TIME_NUM_3[7..0]" (rect 21 571 103 583)(font "Arial" ))
+		(line (pt 0 576)(pt 16 576)(line_width 3))
+	)
+	(port
+		(pt 0 592)
+		(input)
+		(text "SEL1[7..0]" (rect 0 0 42 12)(font "Arial" ))
+		(text "SEL1[7..0]" (rect 21 587 63 599)(font "Arial" ))
+		(line (pt 0 592)(pt 16 592)(line_width 3))
+	)
+	(port
+		(pt 0 608)
+		(input)
+		(text "SEL2[7..0]" (rect 0 0 43 12)(font "Arial" ))
+		(text "SEL2[7..0]" (rect 21 603 64 615)(font "Arial" ))
+		(line (pt 0 608)(pt 16 608)(line_width 3))
+	)
+	(port
+		(pt 0 624)
+		(input)
+		(text "SEL3[7..0]" (rect 0 0 43 12)(font "Arial" ))
+		(text "SEL3[7..0]" (rect 21 619 64 631)(font "Arial" ))
+		(line (pt 0 624)(pt 16 624)(line_width 3))
+	)
+	(port
+		(pt 0 640)
+		(input)
+		(text "MOVE_NUM_0[7..0]" (rect 0 0 89 12)(font "Arial" ))
+		(text "MOVE_NUM_0[7..0]" (rect 21 635 110 647)(font "Arial" ))
+		(line (pt 0 640)(pt 16 640)(line_width 3))
+	)
+	(port
+		(pt 0 656)
+		(input)
+		(text "MOVE_NUM_1[7..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "MOVE_NUM_1[7..0]" (rect 21 651 109 663)(font "Arial" ))
+		(line (pt 0 656)(pt 16 656)(line_width 3))
+	)
+	(port
+		(pt 0 672)
+		(input)
+		(text "MOVE_NUM_2[7..0]" (rect 0 0 89 12)(font "Arial" ))
+		(text "MOVE_NUM_2[7..0]" (rect 21 667 110 679)(font "Arial" ))
+		(line (pt 0 672)(pt 16 672)(line_width 3))
+	)
+	(port
+		(pt 0 688)
+		(input)
+		(text "MOVE_NUM_3[7..0]" (rect 0 0 89 12)(font "Arial" ))
+		(text "MOVE_NUM_3[7..0]" (rect 21 683 110 695)(font "Arial" ))
+		(line (pt 0 688)(pt 16 688)(line_width 3))
+	)
+	(port
+		(pt 0 704)
+		(input)
+		(text "BEST_TIME_NUM_0[7..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "BEST_TIME_NUM_0[7..0]" (rect 21 699 134 711)(font "Arial" ))
+		(line (pt 0 704)(pt 16 704)(line_width 3))
+	)
+	(port
+		(pt 0 720)
+		(input)
+		(text "BEST_TIME_NUM_1[7..0]" (rect 0 0 112 12)(font "Arial" ))
+		(text "BEST_TIME_NUM_1[7..0]" (rect 21 715 133 727)(font "Arial" ))
+		(line (pt 0 720)(pt 16 720)(line_width 3))
+	)
+	(port
+		(pt 0 736)
+		(input)
+		(text "BEST_TIME_NUM_2[7..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "BEST_TIME_NUM_2[7..0]" (rect 21 731 134 743)(font "Arial" ))
+		(line (pt 0 736)(pt 16 736)(line_width 3))
+	)
+	(port
+		(pt 0 752)
+		(input)
+		(text "BEST_TIME_NUM_3[7..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "BEST_TIME_NUM_3[7..0]" (rect 21 747 134 759)(font "Arial" ))
+		(line (pt 0 752)(pt 16 752)(line_width 3))
+	)
+	(port
+		(pt 0 768)
+		(input)
+		(text "BEST_MOVE_NUM_0[7..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "BEST_MOVE_NUM_0[7..0]" (rect 21 763 141 775)(font "Arial" ))
+		(line (pt 0 768)(pt 16 768)(line_width 3))
+	)
+	(port
+		(pt 0 784)
+		(input)
+		(text "BEST_MOVE_NUM_1[7..0]" (rect 0 0 119 12)(font "Arial" ))
+		(text "BEST_MOVE_NUM_1[7..0]" (rect 21 779 140 791)(font "Arial" ))
+		(line (pt 0 784)(pt 16 784)(line_width 3))
+	)
+	(port
+		(pt 0 800)
+		(input)
+		(text "BEST_MOVE_NUM_2[7..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "BEST_MOVE_NUM_2[7..0]" (rect 21 795 141 807)(font "Arial" ))
+		(line (pt 0 800)(pt 16 800)(line_width 3))
+	)
+	(port
+		(pt 0 816)
+		(input)
+		(text "BEST_MOVE_NUM_3[7..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "BEST_MOVE_NUM_3[7..0]" (rect 21 811 141 823)(font "Arial" ))
+		(line (pt 0 816)(pt 16 816)(line_width 3))
+	)
+	(port
+		(pt 0 832)
+		(input)
+		(text "WON" (rect 0 0 24 12)(font "Arial" ))
+		(text "WON" (rect 21 827 45 839)(font "Arial" ))
+		(line (pt 0 832)(pt 16 832)(line_width 1))
+	)
+	(port
+		(pt 0 848)
+		(input)
+		(text "REC_BREAK_TIME" (rect 0 0 94 12)(font "Arial" ))
+		(text "REC_BREAK_TIME" (rect 21 843 115 855)(font "Arial" ))
+		(line (pt 0 848)(pt 16 848)(line_width 1))
+	)
+	(port
+		(pt 0 864)
+		(input)
+		(text "REC_BREAK_MOVE" (rect 0 0 101 12)(font "Arial" ))
+		(text "REC_BREAK_MOVE" (rect 21 859 122 871)(font "Arial" ))
+		(line (pt 0 864)(pt 16 864)(line_width 1))
+	)
+	(port
+		(pt 0 880)
+		(input)
+		(text "M8013" (rect 0 0 25 12)(font "Arial" ))
+		(text "M8013" (rect 21 875 46 887)(font "Arial" ))
+		(line (pt 0 880)(pt 16 880)(line_width 1))
+	)
+	(port
+		(pt 272 32)
+		(output)
+		(text "LINE[639..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "LINE[639..0]" (rect 200 27 251 39)(font "Arial" ))
+		(line (pt 272 32)(pt 256 32)(line_width 3))
+	)
+	(parameter
+		"BEST_B_X"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_B_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_E_X"
+		"24"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_E_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_S_X"
+		"38"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_S_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_T_X"
+		"52"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_T_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_DOT_X"
+		"66"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_DOT_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_0_X"
+		"94"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_0_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_1_X"
+		"108"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_1_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_2_X"
+		"136"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_2_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_3_X"
+		"150"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_TIME_NUM_3_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_0_X"
+		"581"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_0_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_1_X"
+		"595"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_1_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_2_X"
+		"609"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_2_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_3_X"
+		"623"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BEST_MOVE_NUM_3_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_T_X"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_T_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_I_X"
+		"24"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_I_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_M_X"
+		"38"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_M_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_E_X"
+		"52"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_E_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_DOT1_X"
+		"66"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_DOT1_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_0_X"
+		"94"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_0_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_1_X"
+		"108"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_1_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_DOT_X"
+		"122"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_DOT_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_2_X"
+		"136"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_2_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_3_X"
+		"150"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"TIME_NUM_3_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_M_X"
+		"497"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_M_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_O_X"
+		"511"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_O_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_V_X"
+		"525"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_V_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_E_X"
+		"539"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_E_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_DOT1_X"
+		"553"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_DOT1_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_0_X"
+		"581"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_0_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_1_X"
+		"595"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_1_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_2_X"
+		"609"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_2_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_3_X"
+		"623"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"MOVE_NUM_3_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL1_X"
+		"99"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL1_Y"
+		"143"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL2_X"
+		"314"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL2_Y"
+		"143"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL3_X"
+		"529"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SEL3_Y"
+		"143"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_0_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_0_Y"
+		"430"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_1_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_1_Y"
+		"400"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_2_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_2_Y"
+		"370"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_3_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_3_Y"
+		"340"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_4_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_4_Y"
+		"310"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_5_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_5_Y"
+		"280"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_6_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_6_Y"
+		"250"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_7_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_7_Y"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_8_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_8_Y"
+		"190"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_9_X"
+		"5"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKa_9_Y"
+		"160"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_0_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_0_Y"
+		"430"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_1_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_1_Y"
+		"400"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_2_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_2_Y"
+		"370"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_3_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_3_Y"
+		"340"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_4_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_4_Y"
+		"310"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_5_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_5_Y"
+		"280"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_6_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_6_Y"
+		"250"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_7_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_7_Y"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_8_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_8_Y"
+		"190"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_9_X"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKb_9_Y"
+		"160"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_0_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_0_Y"
+		"430"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_1_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_1_Y"
+		"400"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_2_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_2_Y"
+		"370"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_3_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_3_Y"
+		"340"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_4_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_4_Y"
+		"310"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_5_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_5_Y"
+		"280"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_6_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_6_Y"
+		"250"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_7_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_7_Y"
+		"220"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_8_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_8_Y"
+		"190"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_9_X"
+		"435"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DISKc_9_Y"
+		"160"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LIE_0_X"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LIE_0_Y"
+		"160"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LIE_1_X"
+		"384"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LIE_1_Y"
+		"160"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BREAK_RECORD_TIME_X"
+		"188"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BREAK_RECORD_TIME_Y"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BREAK_RECORD_MOVE_X"
+		"188"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BREAK_RECORD_MOVE_Y"
+		"44"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 256 896)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 288 -64 388 16))
+)

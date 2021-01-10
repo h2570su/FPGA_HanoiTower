@@ -1,0 +1,22 @@
+
+State Machine - |main|mainLogic:inst57|status
+Name status.0000000000000000 status.0000000000000010 status.0000000000000001 status.0000000000000011 
+status.0000000000000011 0 0 0 0 
+status.0000000000000001 0 0 1 1 
+status.0000000000000010 0 1 0 1 
+status.0000000000000000 1 0 0 1 
+
+State Machine - |main|VGAHandler:inst2|V_Status
+Name V_Status.0011 V_Status.0010 V_Status.0001 V_Status.0000 V_Status.0100 
+V_Status.0000 0 0 0 0 0 
+V_Status.0001 0 0 1 1 0 
+V_Status.0010 0 1 0 1 0 
+V_Status.0011 1 0 0 1 0 
+V_Status.0100 0 0 0 1 1 
+
+State Machine - |main|VGAHandler:inst2|H_Status
+Name H_Status.0011 H_Status.0010 H_Status.0001 H_Status.0000 
+H_Status.0000 0 0 0 0 
+H_Status.0001 0 0 1 1 
+H_Status.0010 0 1 0 1 
+H_Status.0011 1 0 0 1 

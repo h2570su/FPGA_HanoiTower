@@ -1,0 +1,10 @@
+PLL_Name	pixelClkPLL:inst47|altpll:altpll_component|pixelClkPLL_altpll:auto_generated|pll1
+PLLJITTER	20
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	timePLL:inst53|altpll:altpll_component|timePLL_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
